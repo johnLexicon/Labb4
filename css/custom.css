@@ -3,6 +3,8 @@
 :root{
     --primary: #002744;
     --primary-text: #003150;
+    --primary-light-text: #647e8f;
+    --white: rgb(253, 251, 251);
 }
 
 .bg-dark {
@@ -13,7 +15,27 @@
     color: var(--primary-text);
 }
 
+.primary-light-text {
+    color: var(--primary-light-text);
+}
+
+.white-text {
+    color: var(--white);
+}
+
 .logo-text {
     font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+#hero {
+    background-image: url("../img/watches.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero h1 {
     font-size: 2rem;
 }
