@@ -39,3 +39,20 @@
 #hero h1 {
     font-size: 2rem;
 }
+
+.height-fix {
+    padding-top: 74px;
+}
+
+#map {
+    height: 400px;
+}
+
+#contactInfo {
+    border: 1px solid lightblue;
+    /* box-shadow: 2px 2px 5px grey; */
+}
+
+#contactInfo ul {
+    list-style-type: none;
+}
