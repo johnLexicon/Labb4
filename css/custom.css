@@ -60,3 +60,15 @@
 #contactInfo ul {
     list-style-type: none;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-text {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .hero-text {
+        width: 50%;
+    }
+}
