@@ -11,6 +11,10 @@
     background-color: var(--primary) !important;
 }
 
+.primary-light {
+    background-color: var(--primary-light-text);
+}
+
 .primary-text {
     color: var(--primary-text);
 }
