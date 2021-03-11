@@ -65,6 +65,18 @@
     max-width: 18rem;
 }
 
+.about-info {
+    display: flex;
+}
+
+.about-info > div {
+    width: 50%
+}
+
+.about-text {
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
     .hero-text {
         width: 75%;
