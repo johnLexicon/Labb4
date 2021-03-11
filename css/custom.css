@@ -54,7 +54,6 @@
 
 #contactInfo {
     border: 1px solid lightblue;
-    /* box-shadow: 2px 2px 5px grey; */
 }
 
 #contactInfo ul {
@@ -67,10 +66,7 @@
 
 .about-info {
     display: flex;
-}
-
-.about-info > div {
-    width: 50%
+    flex-direction: column;
 }
 
 .about-text {
@@ -80,6 +76,12 @@
 @media screen and (min-width: 768px) {
     .hero-text {
         width: 75%;
+    }
+    .about-info {
+        flex-direction: row;
+    }
+    .about-info > div {
+        width: 50%;
     }
 }
 
