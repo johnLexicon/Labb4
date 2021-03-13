@@ -73,6 +73,10 @@
     font-size: 1.5rem;
 }
 
+#categories a {
+    font-size: 0.8rem;
+}
+
 @media screen and (min-width: 768px) {
     .hero-text {
         width: 75%;
@@ -83,6 +87,24 @@
     .about-info > div {
         width: 50%;
     }
+    #categories a {
+        font-size: 1rem;
+    }
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #00467c;
+    border-color: #00467c;
+}
+
+.btn-primary:focus {
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 @media screen and (min-width: 2300px) {
