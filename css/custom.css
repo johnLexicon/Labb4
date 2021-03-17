@@ -40,6 +40,11 @@
     height: 100vh;
 }
 
+#hero .layer {
+    background-color: rgb(66, 66, 155, 0.3);
+    height: inherit; /* Inherits from hero section (100vh) */
+}
+
 #hero h1 {
     font-size: 2rem;
 }
